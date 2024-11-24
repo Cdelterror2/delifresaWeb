@@ -1,0 +1,26 @@
+
+.container_button {
+  background-color: white;
+  height: 50px;
+  width: 204px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.point_icon {
+  color: #1662F7;
+  background-color: #e3ebf7;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_date {
+  font-weight: 500;
+}
