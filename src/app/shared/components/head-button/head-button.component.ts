@@ -7,4 +7,14 @@ import { Component, Input } from '@angular/core';
 })
 export class HeadButtonComponent {
 
+  @Input()
+  public icon: string = '';
+
+  @Input()
+  public text: string = '';
+
+  getIcon(): string {
+    return `pi ${this.icon}`;
+  }
+
 }

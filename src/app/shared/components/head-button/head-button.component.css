@@ -2,7 +2,8 @@
 .container_button {
   background-color: white;
   height: 50px;
-  width: 204px;
+  padding: 5px 11px;
+  /* width: 204px; */
   display: flex;
   gap: 7px;
   align-items: center;
