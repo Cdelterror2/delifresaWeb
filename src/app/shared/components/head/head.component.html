@@ -1,21 +1,27 @@
 <section class="section_header">
 
-  <div class="container_menu">
+  <div class="container_left">
+    <div class="container_menu">
 
-    <div class="point_icon">
-      <i class="pi pi-calendar" style="font-size: 1.1rem;"></i>
+      <div class="point_icon">
+        <i class="pi pi-calendar" style="font-size: 1.1rem;"></i>
+      </div>
+
     </div>
+<!--     icon="pi-calendar"
+ -->
+    <app-head-button [icon]=" 'pi-calendar' | iconButton" text="{{currentDate | date: 'EEE, d MMM y'}}"></app-head-button>
+
+    <span>-</span>
+
+    <app-head-button icon= "pi-clock"  text="{{ currentDate | date: 'hh:mm a'}}"  >
+    </app-head-button>
 
   </div>
 
-  <app-head-button icon="pi-calendar" text="Wed, 29 May 2024"></app-head-button>
-
-  <span>-</span>
-
-  <app-head-button icon="pi-clock" text="07:59 AM"></app-head-button>
-
   <div class="c_close_button">
 
+    <i class="dot_icon pi pi-circle-fill"></i>
     <label class="text_close">Close Order</label>
 
     <div class="close_icon">
@@ -25,5 +31,6 @@
 
 
 </section>
+
 
 

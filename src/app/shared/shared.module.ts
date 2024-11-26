@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeadComponent } from './components/head/head.component';
 import { HeadButtonComponent } from './components/head-button/head-button.component';
+import { IconButtonPipe } from '../products/pipes/icon-button.pipe';
 
 
 
@@ -12,6 +13,7 @@ import { HeadButtonComponent } from './components/head-button/head-button.compon
   declarations: [
     HeadComponent,
     HeadButtonComponent,
+    IconButtonPipe,
   ],
   imports: [
     CommonModule
