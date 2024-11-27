@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-head-filters',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './head-filters.component.css'
 })
 export class HeadFiltersComponent {
+
+
 
 }

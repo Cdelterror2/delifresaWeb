@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeadComponent } from './components/head/head.component';
 import { HeadButtonComponent } from './components/head-button/head-button.component';
 import { IconButtonPipe } from '../products/pipes/icon-button.pipe';
+import { HeadFiltersComponent } from './components/head-filters/head-filters.component';
 
 
 
@@ -11,8 +12,9 @@ import { IconButtonPipe } from '../products/pipes/icon-button.pipe';
     HeadComponent
   ],
   declarations: [
-    HeadComponent,
     HeadButtonComponent,
+    HeadComponent,
+    HeadFiltersComponent,
     IconButtonPipe,
   ],
   imports: [

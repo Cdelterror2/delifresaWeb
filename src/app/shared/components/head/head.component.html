@@ -8,14 +8,17 @@
       </div>
 
     </div>
-<!--     icon="pi-calendar"
+    <!--     icon="pi-calendar"
  -->
-    <app-head-button [icon]=" 'pi-calendar' | iconButton" text="{{currentDate | date: 'EEE, d MMM y'}}"></app-head-button>
+    <app-head-button [icon]=" 'pi-calendar' | iconButton"
+      text="{{currentDate | date: 'EEE, d MMM y'}}"></app-head-button>
 
     <span>-</span>
 
-    <app-head-button icon= "pi-clock"  text="{{ currentDate | date: 'hh:mm a'}}"  >
+    <app-head-button icon="pi-clock" text="{{ currentDate | date: 'hh:mm a'}}">
     </app-head-button>
+
+    <i class="fa-brands fa-twitter"></i>
 
   </div>
 
@@ -32,5 +35,11 @@
 
 </section>
 
+<section class="section_filter">
 
+  <!-- @for (item of [1,2,3,4,5]; track item ) {
+   <app-head-filters></app-head-filters>
+  } -->
+  <app-head-filters *ngFor="let item of [1,1,1,1]" />
 
+</section>
