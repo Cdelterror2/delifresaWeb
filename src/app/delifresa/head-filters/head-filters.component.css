@@ -1,0 +1,11 @@
+.section_filter {
+  background-color: #FB4A4A;
+  height: 173px;
+  width: 969px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+
