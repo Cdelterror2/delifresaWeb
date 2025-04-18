@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { DelifresaModule } from './delifresa/delifresa.module';
+import { SectionOrderModule } from './delifresa/section-order/section-order.module';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { DelifresaModule } from './delifresa/delifresa.module';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    DelifresaModule
+    DelifresaModule,
+    SectionOrderModule
   ],
   providers: [
     provideClientHydration()

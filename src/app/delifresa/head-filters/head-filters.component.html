@@ -5,6 +5,29 @@
   } -->
   <!-- <app-head-filters /> -->
 
-  <app-button-filter *ngFor="let item of objectItems"></app-button-filter>
+  <div class="button_container">
+
+    <app-button-filter
+    *ngFor="let item of objectItems"
+    [icon]="item.icon | iconButton: 'libraryOso' "
+    [name]="item.name"
+    [lengthItemns]="item.lengthItemns"
+    >
+    </app-button-filter>
+
+  </div>
+
+  <div class="search_container">
+    <input
+      class="search_input"
+      style="font-family: Urbanist, sans-serif;"
+      placeholder="Busca algo dulce en tu mente...">
+      <!-- circulo con icono -->
+    <div class="search_icon">
+      <i
+        class="fa-solid fa-magnifying-glass"
+        style="font-size: 1.1rem;"></i>
+    </div>
+  </div>
 
 </section>

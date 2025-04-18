@@ -1,7 +1,7 @@
 .container_filters {
   background-color: white;
   height: 160px;
-  width: 170px;
+  width: 159px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -12,7 +12,7 @@
 }
 
 .background_icon {
-  color: black;
+  color: rgb(87, 85, 85);
   background-color: #F7F7F7;
   border-radius: 40px;
   height: 38px;

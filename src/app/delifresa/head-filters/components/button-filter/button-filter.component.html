@@ -3,14 +3,14 @@
 
   <!-- circulo del icono -->
   <div class="background_icon">
-    <i class="pi pi-calendar"></i>
+    <i [class]=getIcon() style="font-size: 1.1rem"></i>
   </div>
 
   <div class="content_text">
-  <!-- textos de los filtros -->
-    <label class="title_filter"  >All menu</label>
+    <!-- textos de los filtros -->
+    <label class="title_filter"> {{name}} </label>
 
-    <label class="subtext_filter">110 items</label>
+    <label class="subtext_filter">{{lengthItemns}} items</label>
   </div>
 
 </div>

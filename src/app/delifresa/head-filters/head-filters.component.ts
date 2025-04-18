@@ -8,13 +8,44 @@ import { Component, Input } from '@angular/core';
 
 export class HeadFiltersComponent {
 
+  @Input()
+  public icon: string = '';
 
-  objectItems: {icono:String, lengthItemns: number, name: string}[] = [
+  objectItems: {icon:string, lengthItemns: number, name: string}[] = [
     {
-      icono: '',
+      icon: 'fa-bread-slice',
+      lengthItemns: 110,
+      name: 'Todo el menu'
+    },
+    {
+      icon: 'fa-bread-slice',
       lengthItemns: 20,
       name: 'Panes'
+    },
+    {
+      icon: 'fa-cookie',
+      lengthItemns: 20,
+      name: 'Galletas'
+    },
+    {
+      icon: 'fa-cheese',
+      lengthItemns: 20,
+      name: 'Donas'
+    },
+    {
+      icon: 'fa-cookie',
+      lengthItemns: 20,
+      name: 'Postres'
+    },
+    {
+      icon: 'fa-cheese',
+      lengthItemns: 20,
+      name: 'Sandwiches'
     }
   ];
+
+  // getIcon(): string {
+  //   return `fa-solid ${this.icon}`;
+  // }
 
 }
