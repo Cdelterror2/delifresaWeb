@@ -16,7 +16,7 @@
   flex-direction: row;
   height: 400px; */
   padding: 10px;
-  width: 972px;
+  width: 100%;
+  height: 100%;
   gap: 12px;
-
 }

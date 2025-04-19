@@ -1,7 +1,7 @@
 .section_header {
 /*   background-color: burlywood; */
   height: 80px;
-  width: 969px;
+  width: 100%;
   margin-top: 0;
   display: flex;
   align-items: center;

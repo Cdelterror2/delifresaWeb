@@ -1,0 +1,9 @@
+.section-order{
+  background: forestgreen;
+  width: 100%;
+  height: 100%;
+}
+
+.remove-margin {
+  margin: 0;
+}
