@@ -1,0 +1,56 @@
+/* --- ---------------- --- */
+/* --- Head Order --- */
+/* --- ---------------- --- */
+.head-order{
+  background: rgb(71, 204, 228);
+  width: 100%;
+  height: 73px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 7px;
+}
+
+.container_order {
+  background-color: white;
+  height: 50px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  margin: 10px;
+
+}
+
+.point_icon {
+  color: #1662F7;
+  border-radius: 40px;
+  height: 38px;
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-order{
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.title-text{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.subtitle-text{
+  font-size: 14px;
+  color:aliceblue;
+}
+
+/* --- ---------------- --- */
+/* --- End Head Order --- */
+/* --- ---------------- --- */

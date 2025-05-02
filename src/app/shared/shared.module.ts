@@ -8,7 +8,7 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
     IconButtonPipe,
   ],
   exports: [
-    IconButtonPipe
+    IconButtonPipe,
   ],
   imports: [
     CommonModule,

@@ -33,6 +33,41 @@ export class SectionproductlistComponent {
       name: 'Pastel de zanahoria',
       category: 'Postres',
       price: 20
+    },
+    {
+      name: 'Pastel de zanahoria',
+      category: 'Postres',
+      price: 20
+    },
+    {
+      name: 'Pastel de zanahoria',
+      category: 'Postres',
+      price: 20
+    },
+    {
+      name: 'Pastel de zanahoria',
+      category: 'Postres',
+      price: 20
+    },
+    {
+      name: 'Pastel de zanahoria',
+      category: 'Postres',
+      price: 20
+    },
+    {
+      name: 'Pastel de zanahoria',
+      category: 'Postres',
+      price: 20
+    },
+    {
+      name: 'Pastel de zanahoria',
+      category: 'Postres',
+      price: 20
+    },
+    {
+      name: 'Pastel de zanahoria',
+      category: 'Postres',
+      price: 20
     }
   ];
 }

@@ -2,7 +2,7 @@
   background-color: chocolate;
   border-radius: 10px;
   display: flex;
-  height: 271px;
+  height: 240px;
   justify-content: space-between;
   flex-direction: column;
   padding: 9px;
@@ -15,7 +15,7 @@
 /* --- ---------------- --- */
 .img_container{
   background-color: crimson;
-  height: 151px;
+  height: 140px;
   /* width: 142px; */
   border-radius: 7px;
   display: flex;
